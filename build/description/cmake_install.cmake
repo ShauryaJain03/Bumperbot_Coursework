@@ -48,6 +48,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/shaurya/bot_ws/src/description/urdf"
     "/home/shaurya/bot_ws/src/description/launch"
     "/home/shaurya/bot_ws/src/description/rviz"
+    "/home/shaurya/bot_ws/src/description/models"
+    "/home/shaurya/bot_ws/src/description/worlds"
+    "/home/shaurya/bot_ws/src/description/photos"
     )
 endif()
 
