@@ -1,0 +1,21 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shaurya/bot_ws/build/description
+-- Install configuration: ""
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/meshes
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/meshes/caster_front_link.STL
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/meshes/caster_rear_link.STL
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/meshes/wheel_left_link.STL
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/meshes/imu_link.STL
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/meshes/wheel_right_link.STL
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/meshes/base_link.STL
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/urdf
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/urdf/bot.urdf.xacro
+-- Installing: /home/shaurya/bot_ws/install/description/share/description/launch
+-- Installing: /home/shaurya/bot_ws/install/description/share/description/launch/display.launch.py

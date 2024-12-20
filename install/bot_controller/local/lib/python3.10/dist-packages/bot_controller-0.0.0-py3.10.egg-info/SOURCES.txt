@@ -1,0 +1,9 @@
+setup.py
+bot_controller/__init__.py
+bot_controller/controller.py
+bot_controller/noisy_controller.py
+bot_controller/simple_controller.py
+bot_controller.egg-info/PKG-INFO
+bot_controller.egg-info/SOURCES.txt
+bot_controller.egg-info/dependency_links.txt
+bot_controller.egg-info/top_level.txt

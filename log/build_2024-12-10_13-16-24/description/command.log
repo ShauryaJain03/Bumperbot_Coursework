@@ -1,0 +1,6 @@
+Invoking command in '/home/shaurya/bot_ws/build/description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shaurya/bot_ws/src/description -DCMAKE_INSTALL_PREFIX=/home/shaurya/bot_ws/install/description
+Invoked command in '/home/shaurya/bot_ws/build/description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shaurya/bot_ws/src/description -DCMAKE_INSTALL_PREFIX=/home/shaurya/bot_ws/install/description
+Invoking command in '/home/shaurya/bot_ws/build/description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/description -- -j8 -l8
+Invoked command in '/home/shaurya/bot_ws/build/description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/description -- -j8 -l8
+Invoking command in '/home/shaurya/bot_ws/build/description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/description
+Invoked command in '/home/shaurya/bot_ws/build/description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/description

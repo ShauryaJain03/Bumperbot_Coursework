@@ -1,0 +1,4 @@
+Error copying directory from "/home/shaurya/bot_ws/src/bot_controller/bot_controller" to "/home/shaurya/bot_ws/build/bot_controller/ament_cmake_python/bot_controller/bot_controller".
+gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_bot_controller.dir/build.make:70: CMakeFiles/ament_cmake_python_copy_bot_controller] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/ament_cmake_python_copy_bot_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

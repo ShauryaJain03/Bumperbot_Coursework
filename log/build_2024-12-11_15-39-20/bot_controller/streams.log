@@ -1,0 +1,6 @@
+[0.014s] Invoking command in '/home/shaurya/bot_ws/build/bot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_controller -- -j8 -l8
+[0.055s] Error copying directory from "/home/shaurya/bot_ws/src/bot_controller/bot_controller" to "/home/shaurya/bot_ws/build/bot_controller/ament_cmake_python/bot_controller/bot_controller".
+[0.056s] gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_bot_controller.dir/build.make:70: CMakeFiles/ament_cmake_python_copy_bot_controller] Error 1
+[0.056s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/ament_cmake_python_copy_bot_controller.dir/all] Error 2
+[0.056s] gmake: *** [Makefile:146: all] Error 2
+[0.059s] Invoked command in '/home/shaurya/bot_ws/build/bot_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_controller -- -j8 -l8

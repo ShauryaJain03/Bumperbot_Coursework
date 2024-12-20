@@ -1,0 +1,43 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/shaurya/Army_Bot-2113888637b68d092bb7a1b05b42718a8ff7eb72/build/description/CMakeCache.txt is different than the directory /home/shaurya/bot_ws/build/description where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shaurya/bot_ws/build/description
+-- Install configuration: ""
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/meshes
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/meshes/caster_front_link.STL
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/meshes/caster_rear_link.STL
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/meshes/wheel_left_link.STL
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/meshes/imu_link.STL
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/meshes/wheel_right_link.STL
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/meshes/base_link.STL
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/urdf
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/urdf/bot_gazebo.xacro
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/urdf/armybot.urdf.xacro
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/urdf/bot.urdf.xacro
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/urdf/bot_ros2_control.xacro
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/launch
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/launch/gazebo.launch.py
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/launch/display.launch.py
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/rviz
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/rviz/display.rviz
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/ament_index/resource_index/package_run_dependencies/description
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/ament_index/resource_index/parent_prefix_path/description
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/environment/ament_prefix_path.sh
+-- Installing: /home/shaurya/bot_ws/install/description/share/description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/environment/path.sh
+-- Installing: /home/shaurya/bot_ws/install/description/share/description/environment/path.dsv
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/local_setup.bash
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/local_setup.sh
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/local_setup.zsh
+-- Installing: /home/shaurya/bot_ws/install/description/share/description/local_setup.dsv
+-- Installing: /home/shaurya/bot_ws/install/description/share/description/package.dsv
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/ament_index/resource_index/packages/description
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/cmake/descriptionConfig.cmake
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/cmake/descriptionConfig-version.cmake
+-- Up-to-date: /home/shaurya/bot_ws/install/description/share/description/package.xml
