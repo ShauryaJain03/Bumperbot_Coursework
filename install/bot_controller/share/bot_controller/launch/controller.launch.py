@@ -118,6 +118,7 @@ def generate_launch_description():
             wheel_controller_spawner,
             wheel_radius_error_arg,
             wheel_separation_error_arg,
+            noisy_controller_launch,
             simple_controller
         ]
     )

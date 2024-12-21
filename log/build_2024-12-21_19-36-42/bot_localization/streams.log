@@ -1,0 +1,61 @@
+[0.018s] Invoking command in '/home/shaurya/bot_ws/build/bot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_localization -- -j8 -l8
+[0.041s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.200s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.203s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.259s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.266s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.276s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.311s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.384s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.519s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.600s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.600s] -- Added test 'lint_cmake' to check CMake code style
+[0.601s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.602s] -- Added test 'xmllint' to check XML markup files
+[0.602s] -- Configuring done
+[0.607s] -- Generating done
+[0.610s] -- Build files have been written to: /home/shaurya/bot_ws/build/bot_localization
+[0.660s] Built target ament_cmake_python_copy_bot_localization
+[0.979s] running egg_info
+[0.980s] creating bot_localization.egg-info
+[0.980s] writing bot_localization.egg-info/PKG-INFO
+[0.980s] writing dependency_links to bot_localization.egg-info/dependency_links.txt
+[0.980s] writing top-level names to bot_localization.egg-info/top_level.txt
+[0.981s] writing manifest file 'bot_localization.egg-info/SOURCES.txt'
+[0.984s] reading manifest file 'bot_localization.egg-info/SOURCES.txt'
+[0.985s] writing manifest file 'bot_localization.egg-info/SOURCES.txt'
+[1.022s] Built target ament_cmake_python_build_bot_localization_egg
+[1.039s] Invoked command in '/home/shaurya/bot_ws/build/bot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_localization -- -j8 -l8
+[1.041s] Invoking command in '/home/shaurya/bot_ws/build/bot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_localization
+[1.050s] -- Install configuration: ""
+[1.050s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/share/bot_localization/environment/pythonpath.sh
+[1.050s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/share/bot_localization/environment/pythonpath.dsv
+[1.050s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/local/lib/python3.10/dist-packages/bot_localization-0.0.0-py3.10.egg-info
+[1.050s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/local/lib/python3.10/dist-packages/bot_localization-0.0.0-py3.10.egg-info/top_level.txt
+[1.050s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/local/lib/python3.10/dist-packages/bot_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[1.050s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/local/lib/python3.10/dist-packages/bot_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.051s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/local/lib/python3.10/dist-packages/bot_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.051s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/local/lib/python3.10/dist-packages/bot_localization
+[1.051s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/local/lib/python3.10/dist-packages/bot_localization/__init__.py
+[1.051s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/local/lib/python3.10/dist-packages/bot_localization/kalman_filter.py
+[1.097s] Listing '/home/shaurya/bot_ws/install/bot_localization/local/lib/python3.10/dist-packages/bot_localization'...
+[1.097s] Compiling '/home/shaurya/bot_ws/install/bot_localization/local/lib/python3.10/dist-packages/bot_localization/__init__.py'...
+[1.097s] Compiling '/home/shaurya/bot_ws/install/bot_localization/local/lib/python3.10/dist-packages/bot_localization/kalman_filter.py'...
+[1.105s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/lib/bot_localization/kalman_filter.py
+[1.105s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/share/ament_index/resource_index/package_run_dependencies/bot_localization
+[1.105s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_localization/share/ament_index/resource_index/parent_prefix_path/bot_localization
+[1.105s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_localization/share/bot_localization/environment/ament_prefix_path.sh
+[1.106s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/share/bot_localization/environment/ament_prefix_path.dsv
+[1.106s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_localization/share/bot_localization/environment/path.sh
+[1.106s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/share/bot_localization/environment/path.dsv
+[1.106s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_localization/share/bot_localization/local_setup.bash
+[1.106s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/share/bot_localization/local_setup.sh
+[1.106s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_localization/share/bot_localization/local_setup.zsh
+[1.106s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/share/bot_localization/local_setup.dsv
+[1.107s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/share/bot_localization/package.dsv
+[1.107s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_localization/share/ament_index/resource_index/packages/bot_localization
+[1.107s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_localization/share/bot_localization/cmake/bot_localizationConfig.cmake
+[1.107s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_localization/share/bot_localization/cmake/bot_localizationConfig-version.cmake
+[1.107s] -- Installing: /home/shaurya/bot_ws/install/bot_localization/share/bot_localization/package.xml
+[1.110s] Invoked command in '/home/shaurya/bot_ws/build/bot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_localization
