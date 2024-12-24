@@ -13,7 +13,7 @@ def generate_launch_description():
     urdf_description_dir = get_package_share_directory("description")
 
     model_arg = DeclareLaunchArgument(name="model", default_value=os.path.join(
-                                        urdf_description_dir, "urdf", "armybot.urdf.xacro"
+                                        urdf_description_dir, "urdf", "bot.urdf.xacro"
                                         ),
                                       description="Absolute path to robot urdf file")
 

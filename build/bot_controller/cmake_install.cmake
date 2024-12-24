@@ -77,6 +77,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bot_controller" TYPE PROGRAM FILES
     "/home/shaurya/bot_ws/src/bot_controller/bot_controller/simple_controller.py"
     "/home/shaurya/bot_ws/src/bot_controller/bot_controller/noisy_controller.py"
+    "/home/shaurya/bot_ws/src/bot_controller/bot_controller/twist_relay.py"
     )
 endif()
 

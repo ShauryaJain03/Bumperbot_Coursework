@@ -1,6 +1,8 @@
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, GroupAction, OpaqueFunction
+from launch.actions import DeclareLaunchArgument, GroupAction, OpaqueFunction, IncludeLaunchDescription
 from launch_ros.actions import Node
+import os
+from ament_index_python.packages import get_package_share_directory
 from launch.substitutions import LaunchConfiguration
 from launch.conditions import UnlessCondition, IfCondition
 
@@ -26,6 +28,8 @@ def noisy_controller(context,*args,**kwargs):
 
 
 def generate_launch_description():
+
+    bumperbot_controller_pkg = get_package_share_directory('bot_controller')
     
     use_sim_time_arg = DeclareLaunchArgument(
         "use_sim_time",
@@ -107,6 +111,28 @@ def generate_launch_description():
 
     noisy_controller_launch=OpaqueFunction(function=noisy_controller)
 
+    twist_mux_launch = IncludeLaunchDescription(
+        os.path.join(
+            get_package_share_directory("twist_mux"),
+            "launch",
+            "twist_mux_launch.py"
+        ),
+        launch_arguments={
+            "cmd_vel_out": "bot_controller/cmd_vel_unstamped",
+            "config_locks": os.path.join(bumperbot_controller_pkg, "config", "twist_mux_locks.yaml"),
+            "config_topics": os.path.join(bumperbot_controller_pkg, "config", "twist_mux_topics.yaml"),
+            "config_joy": os.path.join(bumperbot_controller_pkg, "config", "twist_mux_joy.yaml"),
+            "use_sim_time": LaunchConfiguration("use_sim_time"),
+        }.items(),
+    )
+
+    twist_relay_node = Node(
+        package="bot_controller",
+        executable="twist_relay.py",  
+        name="twist_relay",
+        parameters=[{"use_sim_time": LaunchConfiguration("use_sim_time")}]
+    )
+
     return LaunchDescription(
         [
             use_sim_time_arg,
@@ -118,6 +144,8 @@ def generate_launch_description():
             wheel_controller_spawner,
             wheel_radius_error_arg,
             wheel_separation_error_arg,
+            twist_relay_node,
+            twist_mux_launch,
             noisy_controller_launch,
             simple_controller
         ]

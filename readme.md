@@ -39,3 +39,4 @@ launch noisy_controller :
 launch plotjuggler using ros2 run plotjuggler plotjuggler
 to visualise the velocity plots of noisy and ideal odometry measurements
 
+ros2 run key_teleop key_teleop --ros-args -r key_vel:=input_joy/cmd_vel_stamped -p twist_stamped_enabled:=True

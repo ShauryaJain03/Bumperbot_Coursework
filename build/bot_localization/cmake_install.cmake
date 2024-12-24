@@ -67,7 +67,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bot_localization" TYPE PROGRAM FILES "/home/shaurya/bot_ws/src/bot_localization/bot_localization/kalman_filter.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bot_localization" TYPE PROGRAM FILES
+    "/home/shaurya/bot_ws/src/bot_localization/bot_localization/kalman_filter.py"
+    "/home/shaurya/bot_ws/src/bot_localization/bot_localization/odometry_motion_model.py"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

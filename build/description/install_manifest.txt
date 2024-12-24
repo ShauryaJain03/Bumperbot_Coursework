@@ -1,4 +1,5 @@
 /home/shaurya/bot_ws/install/description/share/description/meshes/caster_front_link.STL
+/home/shaurya/bot_ws/install/description/share/description/meshes/laser_link.STL
 /home/shaurya/bot_ws/install/description/share/description/meshes/caster_rear_link.STL
 /home/shaurya/bot_ws/install/description/share/description/meshes/wheel_left_link.STL
 /home/shaurya/bot_ws/install/description/share/description/meshes/imu_link.STL
@@ -8,9 +9,13 @@
 /home/shaurya/bot_ws/install/description/share/description/urdf/armybot.urdf.xacro
 /home/shaurya/bot_ws/install/description/share/description/urdf/bot.urdf.xacro
 /home/shaurya/bot_ws/install/description/share/description/urdf/bot_ros2_control.xacro
+/home/shaurya/bot_ws/install/description/share/description/urdf/armybot_gazebo.xacro
+/home/shaurya/bot_ws/install/description/share/description/launch/army_gazebo.launch.py
 /home/shaurya/bot_ws/install/description/share/description/launch/gazebo.launch.py
 /home/shaurya/bot_ws/install/description/share/description/launch/display.launch.py
+/home/shaurya/bot_ws/install/description/share/description/launch/army_display.launch.py
 /home/shaurya/bot_ws/install/description/share/description/rviz/display.rviz
+/home/shaurya/bot_ws/install/description/share/description/rviz/config.rviz
 /home/shaurya/bot_ws/install/description/share/description/models/aws_robomaker_warehouse_PalletJackB_01/model.config
 /home/shaurya/bot_ws/install/description/share/description/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE
 /home/shaurya/bot_ws/install/description/share/description/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE
