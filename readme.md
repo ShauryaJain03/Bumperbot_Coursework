@@ -33,10 +33,24 @@ reading odometry data - can be read from both keyboard teleop and velocity comma
 ros2 topic echo /bot_controller/odom --no-arr  
 [--no-arr means there is no covariance matrix will be displayed hence leading to cleaner data representation]
 
-
+launch gazebo with custom world
+ros2 launch description gazebo.launch.py world_name:=small_house
 
 launch noisy_controller :
 launch plotjuggler using ros2 run plotjuggler plotjuggler
 to visualise the velocity plots of noisy and ideal odometry measurements
 
+use kalman filter to filter out noisy angular velocity by running kalman_filter.py node
+ros2 run bot_localization kalman_filter.py
+
+this can be plotted in plotjuggler for visualisation
+
+now to use twist_mux use only this msg to use keyboard teleop
 ros2 run key_teleop key_teleop --ros-args -r key_vel:=input_joy/cmd_vel_stamped -p twist_stamped_enabled:=True
+
+publish safety_stop msgs
+ros2 topic pub /safety_stop std_msgs/msg/Bool "data: false" 
+
+use safety_stop node - 
+ros2 run bot_utils safety_stop.py
+
