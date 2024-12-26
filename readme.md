@@ -54,3 +54,9 @@ ros2 topic pub /safety_stop std_msgs/msg/Bool "data: false"
 use safety_stop node - 
 ros2 run bot_utils safety_stop.py
 
+for running map_server - 
+ros2 launch bot_localization global_localization.launch.py
+rviz2
+ros2 lifecycle set /map_server 1
+ros2 lifecycle set /map_server 3
+

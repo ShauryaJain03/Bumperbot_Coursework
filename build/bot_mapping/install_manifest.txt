@@ -1,0 +1,17 @@
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/maps/small_house/map.yaml
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/maps/small_house/map.pgm
+/home/shaurya/bot_ws/install/bot_mapping/share/ament_index/resource_index/package_run_dependencies/bot_mapping
+/home/shaurya/bot_ws/install/bot_mapping/share/ament_index/resource_index/parent_prefix_path/bot_mapping
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/environment/ament_prefix_path.sh
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/environment/ament_prefix_path.dsv
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/environment/path.sh
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/environment/path.dsv
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/local_setup.bash
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/local_setup.sh
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/local_setup.zsh
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/local_setup.dsv
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/package.dsv
+/home/shaurya/bot_ws/install/bot_mapping/share/ament_index/resource_index/packages/bot_mapping
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/cmake/bot_mappingConfig.cmake
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/cmake/bot_mappingConfig-version.cmake
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/package.xml

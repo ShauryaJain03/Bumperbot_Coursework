@@ -1,0 +1,31 @@
+[0.009s] Invoking command in '/home/shaurya/bot_ws/build/bot_mapping': AMENT_PREFIX_PATH=/home/shaurya/bot_ws/install/bot_localization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shaurya/bot_ws/install/bot_localization:/opt/ros/humble PYTHONPATH=/home/shaurya/bot_ws/install/bot_localization/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_mapping -- -j8 -l8
+[0.039s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.210s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.315s] -- Added test 'lint_cmake' to check CMake code style
+[0.316s] -- Added test 'xmllint' to check XML markup files
+[0.318s] -- Configuring done
+[0.321s] -- Generating done
+[0.325s] -- Build files have been written to: /home/shaurya/bot_ws/build/bot_mapping
+[0.350s] Invoked command in '/home/shaurya/bot_ws/build/bot_mapping' returned '0': AMENT_PREFIX_PATH=/home/shaurya/bot_ws/install/bot_localization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shaurya/bot_ws/install/bot_localization:/opt/ros/humble PYTHONPATH=/home/shaurya/bot_ws/install/bot_localization/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_mapping -- -j8 -l8
+[0.352s] Invoking command in '/home/shaurya/bot_ws/build/bot_mapping': AMENT_PREFIX_PATH=/home/shaurya/bot_ws/install/bot_localization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shaurya/bot_ws/install/bot_localization:/opt/ros/humble PYTHONPATH=/home/shaurya/bot_ws/install/bot_localization/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_mapping
+[0.362s] -- Install configuration: ""
+[0.362s] -- Installing: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/maps
+[0.362s] -- Installing: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/maps/small_house
+[0.363s] -- Installing: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/maps/small_house/map.yaml
+[0.363s] -- Installing: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/maps/small_house/map.pgm
+[0.363s] -- Installing: /home/shaurya/bot_ws/install/bot_mapping/share/ament_index/resource_index/package_run_dependencies/bot_mapping
+[0.364s] -- Installing: /home/shaurya/bot_ws/install/bot_mapping/share/ament_index/resource_index/parent_prefix_path/bot_mapping
+[0.364s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/environment/ament_prefix_path.sh
+[0.364s] -- Installing: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/environment/ament_prefix_path.dsv
+[0.364s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/environment/path.sh
+[0.365s] -- Installing: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/environment/path.dsv
+[0.365s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/local_setup.bash
+[0.365s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/local_setup.sh
+[0.366s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/local_setup.zsh
+[0.366s] -- Installing: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/local_setup.dsv
+[0.366s] -- Installing: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/package.dsv
+[0.366s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/ament_index/resource_index/packages/bot_mapping
+[0.366s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/cmake/bot_mappingConfig.cmake
+[0.367s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/cmake/bot_mappingConfig-version.cmake
+[0.367s] -- Installing: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/package.xml
+[0.372s] Invoked command in '/home/shaurya/bot_ws/build/bot_mapping' returned '0': AMENT_PREFIX_PATH=/home/shaurya/bot_ws/install/bot_localization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shaurya/bot_ws/install/bot_localization:/opt/ros/humble PYTHONPATH=/home/shaurya/bot_ws/install/bot_localization/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_mapping

@@ -21,6 +21,10 @@ install(PROGRAMS
   ${PROJECT_NAME}/odometry_motion_model.py
   DESTINATION lib/${PROJECT_NAME}
 )
+install(
+  DIRECTORY launch 
+  DESTINATION share/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

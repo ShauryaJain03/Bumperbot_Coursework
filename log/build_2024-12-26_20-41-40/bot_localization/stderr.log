@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:77 (file):
+  file INSTALL cannot find
+  "/home/shaurya/bot_ws/src/bot_localization/config": No such file or
+  directory.
+
+[0m
