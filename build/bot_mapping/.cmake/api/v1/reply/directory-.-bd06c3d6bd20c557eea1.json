@@ -355,7 +355,9 @@
 			"destination" : "share/bot_mapping",
 			"paths" : 
 			[
-				"maps"
+				"maps",
+				"launch",
+				"config"
 			],
 			"type" : "directory"
 		},

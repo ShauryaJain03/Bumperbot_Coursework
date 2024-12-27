@@ -9,6 +9,8 @@
 /home/shaurya/bot_ws/install/bot_mapping/lib/bot_mapping/mapping_with_known_poses.py
 /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/maps/small_house/map.yaml
 /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/maps/small_house/map.pgm
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/launch/slam.launch.py
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/config/slam_toolbox.yaml
 /home/shaurya/bot_ws/install/bot_mapping/share/ament_index/resource_index/package_run_dependencies/bot_mapping
 /home/shaurya/bot_ws/install/bot_mapping/share/ament_index/resource_index/parent_prefix_path/bot_mapping
 /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/environment/ament_prefix_path.sh

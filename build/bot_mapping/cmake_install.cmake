@@ -71,7 +71,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bot_mapping" TYPE DIRECTORY FILES "/home/shaurya/bot_ws/src/bot_mapping/maps")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bot_mapping" TYPE DIRECTORY FILES
+    "/home/shaurya/bot_ws/src/bot_mapping/maps"
+    "/home/shaurya/bot_ws/src/bot_mapping/launch"
+    "/home/shaurya/bot_ws/src/bot_mapping/config"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

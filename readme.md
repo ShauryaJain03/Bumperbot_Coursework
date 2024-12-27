@@ -62,3 +62,6 @@ ros2 lifecycle set /map_server 3
 
 run mapping with known poses using occupancy grid mapping
 ros2 run bot_mapping mapping_with_known_poses.py 
+
+launch slam_toolbox
+ros2 launch bot_mapping slam.launch.py
