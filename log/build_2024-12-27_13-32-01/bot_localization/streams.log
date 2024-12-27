@@ -1,0 +1,41 @@
+[0.029s] Invoking command in '/home/shaurya/bot_ws/build/bot_localization': /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_localization -- -j8 -l8
+[0.079s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.284s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.284s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.338s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.343s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.355s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.377s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.407s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.515s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.614s] Error parsing '/home/shaurya/bot_ws/src/bot_localization/package.xml':
+[0.667s] Traceback (most recent call last):
+[0.667s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.667s]     main()
+[0.667s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.667s]     raise e
+[0.667s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.667s]     package = parse_package_string(
+[0.667s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.667s]     pkg.validate(warnings=warnings)
+[0.667s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.668s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.668s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/shaurya/bot_ws/src/bot_localization/package.xml':
+[0.668s] The package "bot_localization" must not "exec_depend" on a package with the same name as this package
+[0.685s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.685s]   execute_process(/usr/bin/python3
+[0.685s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.685s]   /home/shaurya/bot_ws/src/bot_localization/package.xml
+[0.685s]   /home/shaurya/bot_ws/build/bot_localization/ament_cmake_core/package.cmake)
+[0.685s]   returned error code 1
+[0.686s] Call Stack (most recent call first):
+[0.686s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.686s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:60 (ament_package_xml)
+[0.686s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[0.686s]   CMakeLists.txt:17 (ament_python_install_package)
+[0.686s] 
+[0.686s] [0m
+[0.686s] -- Configuring incomplete, errors occurred!
+[0.686s] See also "/home/shaurya/bot_ws/build/bot_localization/CMakeFiles/CMakeOutput.log".
+[0.690s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[0.693s] Invoked command in '/home/shaurya/bot_ws/build/bot_localization' returned '2': /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_localization -- -j8 -l8

@@ -1,2 +1,4 @@
 # Hashes of file build rules.
+9ecde774c131672ad1275db97cf55d02 CMakeFiles/ament_cmake_python_build_bot_mapping_egg
+d16dba93ce573f2da7e557ae1fa9636d CMakeFiles/ament_cmake_python_copy_bot_mapping
 9ee2b1525e7aad8c2ce12f7f157cb327 CMakeFiles/bot_mapping_uninstall

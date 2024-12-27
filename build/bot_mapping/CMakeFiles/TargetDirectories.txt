@@ -1,5 +1,7 @@
 /home/shaurya/bot_ws/build/bot_mapping/CMakeFiles/uninstall.dir
 /home/shaurya/bot_ws/build/bot_mapping/CMakeFiles/bot_mapping_uninstall.dir
+/home/shaurya/bot_ws/build/bot_mapping/CMakeFiles/ament_cmake_python_copy_bot_mapping.dir
+/home/shaurya/bot_ws/build/bot_mapping/CMakeFiles/ament_cmake_python_build_bot_mapping_egg.dir
 /home/shaurya/bot_ws/build/bot_mapping/CMakeFiles/test.dir
 /home/shaurya/bot_ws/build/bot_mapping/CMakeFiles/edit_cache.dir
 /home/shaurya/bot_ws/build/bot_mapping/CMakeFiles/rebuild_cache.dir

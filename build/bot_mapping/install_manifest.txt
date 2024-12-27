@@ -1,3 +1,12 @@
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/environment/pythonpath.sh
+/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/environment/pythonpath.dsv
+/home/shaurya/bot_ws/install/bot_mapping/local/lib/python3.10/dist-packages/bot_mapping-0.0.0-py3.10.egg-info/top_level.txt
+/home/shaurya/bot_ws/install/bot_mapping/local/lib/python3.10/dist-packages/bot_mapping-0.0.0-py3.10.egg-info/PKG-INFO
+/home/shaurya/bot_ws/install/bot_mapping/local/lib/python3.10/dist-packages/bot_mapping-0.0.0-py3.10.egg-info/dependency_links.txt
+/home/shaurya/bot_ws/install/bot_mapping/local/lib/python3.10/dist-packages/bot_mapping-0.0.0-py3.10.egg-info/SOURCES.txt
+/home/shaurya/bot_ws/install/bot_mapping/local/lib/python3.10/dist-packages/bot_mapping/__init__.py
+/home/shaurya/bot_ws/install/bot_mapping/local/lib/python3.10/dist-packages/bot_mapping/mapping_with_known_poses.py
+/home/shaurya/bot_ws/install/bot_mapping/lib/bot_mapping/mapping_with_known_poses.py
 /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/maps/small_house/map.yaml
 /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/maps/small_house/map.pgm
 /home/shaurya/bot_ws/install/bot_mapping/share/ament_index/resource_index/package_run_dependencies/bot_mapping

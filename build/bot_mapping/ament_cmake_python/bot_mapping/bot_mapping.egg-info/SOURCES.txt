@@ -1,0 +1,7 @@
+setup.py
+bot_mapping/__init__.py
+bot_mapping/mapping_with_known_poses.py
+bot_mapping.egg-info/PKG-INFO
+bot_mapping.egg-info/SOURCES.txt
+bot_mapping.egg-info/dependency_links.txt
+bot_mapping.egg-info/top_level.txt

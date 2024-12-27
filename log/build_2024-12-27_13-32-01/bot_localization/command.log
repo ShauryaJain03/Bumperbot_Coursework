@@ -1,0 +1,2 @@
+Invoking command in '/home/shaurya/bot_ws/build/bot_localization': /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_localization -- -j8 -l8
+Invoked command in '/home/shaurya/bot_ws/build/bot_localization' returned '2': /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_localization -- -j8 -l8
