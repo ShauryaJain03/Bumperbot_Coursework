@@ -1,0 +1,72 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100 # Hz
+    use_sim_time: true
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    bot_controller:
+      type: diff_drive_controller/DiffDriveController
+
+    simple_velocity_controller:
+      type: velocity_controllers/JointGroupVelocityController
+
+bot_controller:
+  ros__parameters:
+    type: diff_drive_controller/DiffDriveController
+    use_stamped_vel: true
+
+    # Wheel joints
+    left_wheel_names:
+      - front_left_motor_link_to_front_left_wheel_link_joint
+      - back_left_motor_link_to_back_left_wheel_link_joint
+    right_wheel_names:
+      - front_right_motor_link_to_front_right_wheel_link_joint
+      - back_right_motor_link_to_back_right_wheel_link_joint
+
+    # Publish settings
+    publish_rate: 50.0
+    pose_covariance_diagonal: [0.001, 0.001, 1.0e-3, 1.0e-3, 1.0e-3, 0.01]
+    twist_covariance_diagonal: [0.001, 0.001, 1.0e-3, 1.0e-3, 1.0e-3, 0.01]
+
+    # Robot dimensions
+    wheel_separation: 0.215 # Adjusted for your robot
+    wheel_radius: 0.035 # Adjusted for your robot
+
+    # Multipliers
+    wheel_separation_multiplier: 1.0
+    left_wheel_radius_multiplier: 1.0
+    right_wheel_radius_multiplier: 1.0
+
+    # Timeout for velocity commands
+    cmd_vel_timeout: 0.5
+
+    # Frame settings
+    base_frame_id: world_link # Adjust as needed for your TF setup
+
+    # Data publishing options
+    publish_limited_velocity: true
+    publish_wheel_data: true
+    enable_odom_tf: true
+
+    # Velocity and acceleration limits
+    linear:
+      x:
+        has_velocity_limits: true
+        max_velocity: 1.0  # m/s
+        min_velocity: -0.5 # m/s
+        has_acceleration_limits: true
+        max_acceleration: 0.8  # m/s^2
+        min_acceleration: -0.4 # m/s^2
+        has_jerk_limits: false
+        max_jerk: 5.0  # m/s^3
+    angular:
+      z:
+        has_velocity_limits: true
+        max_velocity: 1.7  # rad/s
+        has_acceleration_limits: true
+        max_acceleration: 1.5  # rad/s^2
+        has_jerk_limits: false
+        max_jerk: 2.5  # rad/s^3
+

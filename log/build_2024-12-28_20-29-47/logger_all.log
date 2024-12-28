@@ -1,0 +1,395 @@
+[0.069s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.069s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71c34283cf10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71c34283c9d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71c34283c9d0>>)
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.189s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shaurya/bot_ws'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_controller) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_controller) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_controller) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_controller) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_controller) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_controller) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_controller) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_controller) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bot_controller' with type 'ros.ament_cmake' and name 'bot_controller'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_localization) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_localization) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_localization) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_localization) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_localization) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_localization) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_localization) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_localization) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bot_localization' with type 'ros.ament_cmake' and name 'bot_localization'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_mapping) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_mapping) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_mapping) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_mapping) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_mapping) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_mapping) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_mapping) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_mapping) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bot_mapping' with type 'ros.ament_cmake' and name 'bot_mapping'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_utils) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_utils) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_utils) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_utils) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_utils) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_utils) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_utils) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/bot_utils) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bot_utils' with type 'ros.ament_cmake' and name 'bot_utils'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/description) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/description' with type 'ros.ament_cmake' and name 'description'
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.228s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/shaurya/bot_ws/install
+[0.229s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 434 installed packages in /opt/ros/humble
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'bot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shaurya/bot_ws/build/bot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shaurya/bot_ws/install/bot_controller', 'merge_install': False, 'path': '/home/shaurya/bot_ws/src/bot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_localization' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_localization' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'bot_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shaurya/bot_ws/build/bot_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shaurya/bot_ws/install/bot_localization', 'merge_install': False, 'path': '/home/shaurya/bot_ws/src/bot_localization', 'symlink_install': False, 'test_result_base': None}
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_utils' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_utils' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'bot_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'bot_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shaurya/bot_ws/build/bot_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shaurya/bot_ws/install/bot_utils', 'merge_install': False, 'path': '/home/shaurya/bot_ws/src/bot_utils', 'symlink_install': False, 'test_result_base': None}
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shaurya/bot_ws/build/description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shaurya/bot_ws/install/description', 'merge_install': False, 'path': '/home/shaurya/bot_ws/src/description', 'symlink_install': False, 'test_result_base': None}
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'bot_mapping' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'bot_mapping' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'bot_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'bot_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'bot_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'bot_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'bot_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'bot_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'bot_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'bot_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shaurya/bot_ws/build/bot_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shaurya/bot_ws/install/bot_mapping', 'merge_install': False, 'path': '/home/shaurya/bot_ws/src/bot_mapping', 'symlink_install': False, 'test_result_base': None}
+[0.269s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.270s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.270s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shaurya/bot_ws/src/bot_localization' with build type 'ament_cmake'
+[0.270s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shaurya/bot_ws/src/bot_localization'
+[0.272s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.275s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shaurya/bot_ws/src/bot_controller' with build type 'ament_cmake'
+[0.275s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shaurya/bot_ws/src/bot_controller'
+[0.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.278s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shaurya/bot_ws/src/bot_utils' with build type 'ament_cmake'
+[0.278s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shaurya/bot_ws/src/bot_utils'
+[0.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.281s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shaurya/bot_ws/src/description' with build type 'ament_cmake'
+[0.281s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shaurya/bot_ws/src/description'
+[0.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shaurya/bot_ws/build/bot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_localization -- -j8 -l8
+[0.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shaurya/bot_ws/build/bot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_controller -- -j8 -l8
+[0.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shaurya/bot_ws/build/bot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_utils -- -j8 -l8
+[0.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shaurya/bot_ws/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/description -- -j8 -l8
+[0.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shaurya/bot_ws/build/description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/description -- -j8 -l8
+[0.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shaurya/bot_ws/build/description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/description
+[0.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(description)
+[0.381s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/description' for CMake module files
+[0.382s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/description' for CMake config files
+[0.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('description', 'cmake_prefix_path')
+[0.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/description/share/description/hook/cmake_prefix_path.ps1'
+[0.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shaurya/bot_ws/install/description/share/description/hook/cmake_prefix_path.dsv'
+[0.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/description/share/description/hook/cmake_prefix_path.sh'
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/description/bin'
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/description/lib/pkgconfig/description.pc'
+[0.408s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/description/lib/python3.10/site-packages'
+[0.408s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/description/bin'
+[0.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/description/share/description/package.ps1'
+[0.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shaurya/bot_ws/install/description/share/description/package.dsv'
+[0.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/description/share/description/package.sh'
+[0.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/description/share/description/package.bash'
+[0.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/description/share/description/package.zsh'
+[0.430s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shaurya/bot_ws/install/description/share/colcon-core/packages/description)
+[0.438s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(description)
+[0.438s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/description' for CMake module files
+[0.442s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/description' for CMake config files
+[0.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shaurya/bot_ws/build/description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/description
+[0.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('description', 'cmake_prefix_path')
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/description/share/description/hook/cmake_prefix_path.ps1'
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shaurya/bot_ws/install/description/share/description/hook/cmake_prefix_path.dsv'
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/description/share/description/hook/cmake_prefix_path.sh'
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/description/bin'
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/description/lib/pkgconfig/description.pc'
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/description/lib/python3.10/site-packages'
+[0.447s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/description/bin'
+[0.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/description/share/description/package.ps1'
+[0.448s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shaurya/bot_ws/install/description/share/description/package.dsv'
+[0.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/description/share/description/package.sh'
+[0.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/description/share/description/package.bash'
+[0.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/description/share/description/package.zsh'
+[0.450s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shaurya/bot_ws/install/description/share/colcon-core/packages/description)
+[0.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shaurya/bot_ws/build/bot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_utils -- -j8 -l8
+[0.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shaurya/bot_ws/build/bot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_utils
+[0.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shaurya/bot_ws/build/bot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_controller -- -j8 -l8
+[0.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shaurya/bot_ws/build/bot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_controller
+[0.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shaurya/bot_ws/build/bot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_localization -- -j8 -l8
+[0.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shaurya/bot_ws/build/bot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_localization
+[0.670s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_utils)
+[0.670s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_utils' for CMake module files
+[0.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shaurya/bot_ws/build/bot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_utils
+[0.673s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_utils' for CMake config files
+[0.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_utils', 'cmake_prefix_path')
+[0.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/bot_utils/share/bot_utils/hook/cmake_prefix_path.ps1'
+[0.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shaurya/bot_ws/install/bot_utils/share/bot_utils/hook/cmake_prefix_path.dsv'
+[0.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/bot_utils/share/bot_utils/hook/cmake_prefix_path.sh'
+[0.677s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_utils/lib'
+[0.678s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_utils/bin'
+[0.678s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_utils/lib/pkgconfig/bot_utils.pc'
+[0.678s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_utils/lib/python3.10/site-packages'
+[0.678s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_utils/bin'
+[0.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_utils/share/bot_utils/package.ps1'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shaurya/bot_ws/install/bot_utils/share/bot_utils/package.dsv'
+[0.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_utils/share/bot_utils/package.sh'
+[0.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_utils/share/bot_utils/package.bash'
+[0.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_utils/share/bot_utils/package.zsh'
+[0.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shaurya/bot_ws/install/bot_utils/share/colcon-core/packages/bot_utils)
+[0.683s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_utils)
+[0.683s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_utils' for CMake module files
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_utils' for CMake config files
+[0.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_utils', 'cmake_prefix_path')
+[0.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/bot_utils/share/bot_utils/hook/cmake_prefix_path.ps1'
+[0.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shaurya/bot_ws/install/bot_utils/share/bot_utils/hook/cmake_prefix_path.dsv'
+[0.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/bot_utils/share/bot_utils/hook/cmake_prefix_path.sh'
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_utils/lib'
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_utils/bin'
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_utils/lib/pkgconfig/bot_utils.pc'
+[0.686s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_utils/lib/python3.10/site-packages'
+[0.687s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_utils/bin'
+[0.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_utils/share/bot_utils/package.ps1'
+[0.688s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shaurya/bot_ws/install/bot_utils/share/bot_utils/package.dsv'
+[0.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_utils/share/bot_utils/package.sh'
+[0.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_utils/share/bot_utils/package.bash'
+[0.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_utils/share/bot_utils/package.zsh'
+[0.690s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shaurya/bot_ws/install/bot_utils/share/colcon-core/packages/bot_utils)
+[0.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_controller)
+[0.692s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_controller' for CMake module files
+[0.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shaurya/bot_ws/build/bot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_controller
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_controller' for CMake config files
+[0.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_controller', 'cmake_prefix_path')
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.ps1'
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shaurya/bot_ws/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.dsv'
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.sh'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_controller/lib'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_controller/bin'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_controller/lib/pkgconfig/bot_controller.pc'
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_controller/lib/python3.10/site-packages'
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_controller/bin'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_controller/share/bot_controller/package.ps1'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shaurya/bot_ws/install/bot_controller/share/bot_controller/package.dsv'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_controller/share/bot_controller/package.sh'
+[0.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_controller/share/bot_controller/package.bash'
+[0.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_controller/share/bot_controller/package.zsh'
+[0.699s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shaurya/bot_ws/install/bot_controller/share/colcon-core/packages/bot_controller)
+[0.699s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_controller)
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_controller' for CMake module files
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_controller' for CMake config files
+[0.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_controller', 'cmake_prefix_path')
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.ps1'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shaurya/bot_ws/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.dsv'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.sh'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_controller/lib'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_controller/bin'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_controller/lib/pkgconfig/bot_controller.pc'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_controller/lib/python3.10/site-packages'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_controller/bin'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_controller/share/bot_controller/package.ps1'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shaurya/bot_ws/install/bot_controller/share/bot_controller/package.dsv'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_controller/share/bot_controller/package.sh'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_controller/share/bot_controller/package.bash'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_controller/share/bot_controller/package.zsh'
+[0.706s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shaurya/bot_ws/install/bot_controller/share/colcon-core/packages/bot_controller)
+[0.707s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_localization)
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_localization' for CMake module files
+[0.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shaurya/bot_ws/build/bot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_localization
+[0.708s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_localization' for CMake config files
+[0.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_localization', 'cmake_prefix_path')
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/bot_localization/share/bot_localization/hook/cmake_prefix_path.ps1'
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shaurya/bot_ws/install/bot_localization/share/bot_localization/hook/cmake_prefix_path.dsv'
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/bot_localization/share/bot_localization/hook/cmake_prefix_path.sh'
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_localization/lib'
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_localization/bin'
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_localization/lib/pkgconfig/bot_localization.pc'
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_localization/lib/python3.10/site-packages'
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_localization/bin'
+[0.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_localization/share/bot_localization/package.ps1'
+[0.711s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shaurya/bot_ws/install/bot_localization/share/bot_localization/package.dsv'
+[0.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_localization/share/bot_localization/package.sh'
+[0.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_localization/share/bot_localization/package.bash'
+[0.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_localization/share/bot_localization/package.zsh'
+[0.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shaurya/bot_ws/install/bot_localization/share/colcon-core/packages/bot_localization)
+[0.713s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_localization)
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_localization' for CMake module files
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_localization' for CMake config files
+[0.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_localization', 'cmake_prefix_path')
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/bot_localization/share/bot_localization/hook/cmake_prefix_path.ps1'
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shaurya/bot_ws/install/bot_localization/share/bot_localization/hook/cmake_prefix_path.dsv'
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/bot_localization/share/bot_localization/hook/cmake_prefix_path.sh'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_localization/lib'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_localization/bin'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_localization/lib/pkgconfig/bot_localization.pc'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_localization/lib/python3.10/site-packages'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_localization/bin'
+[0.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_localization/share/bot_localization/package.ps1'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shaurya/bot_ws/install/bot_localization/share/bot_localization/package.dsv'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_localization/share/bot_localization/package.sh'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_localization/share/bot_localization/package.bash'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_localization/share/bot_localization/package.zsh'
+[0.718s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shaurya/bot_ws/install/bot_localization/share/colcon-core/packages/bot_localization)
+[0.719s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shaurya/bot_ws/src/bot_mapping' with build type 'ament_cmake'
+[0.719s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shaurya/bot_ws/src/bot_mapping'
+[0.719s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.719s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shaurya/bot_ws/build/bot_mapping': CMAKE_PREFIX_PATH=/home/shaurya/bot_ws/install/bot_localization:/home/shaurya/bot_ws/install/description:/home/shaurya/bot_ws/install/bot_utils:/home/shaurya/bot_ws/install/bot_mapping:/home/shaurya/bot_ws/install/bot_controller:/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_mapping -- -j8 -l8
+[0.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shaurya/bot_ws/build/bot_mapping' returned '0': CMAKE_PREFIX_PATH=/home/shaurya/bot_ws/install/bot_localization:/home/shaurya/bot_ws/install/description:/home/shaurya/bot_ws/install/bot_utils:/home/shaurya/bot_ws/install/bot_mapping:/home/shaurya/bot_ws/install/bot_controller:/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_mapping -- -j8 -l8
+[0.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shaurya/bot_ws/build/bot_mapping': CMAKE_PREFIX_PATH=/home/shaurya/bot_ws/install/bot_localization:/home/shaurya/bot_ws/install/description:/home/shaurya/bot_ws/install/bot_utils:/home/shaurya/bot_ws/install/bot_mapping:/home/shaurya/bot_ws/install/bot_controller:/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_mapping
+[1.054s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_mapping)
+[1.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shaurya/bot_ws/build/bot_mapping' returned '0': CMAKE_PREFIX_PATH=/home/shaurya/bot_ws/install/bot_localization:/home/shaurya/bot_ws/install/description:/home/shaurya/bot_ws/install/bot_utils:/home/shaurya/bot_ws/install/bot_mapping:/home/shaurya/bot_ws/install/bot_controller:/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_mapping
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_mapping' for CMake module files
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_mapping' for CMake config files
+[1.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_mapping', 'cmake_prefix_path')
+[1.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/hook/cmake_prefix_path.ps1'
+[1.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/hook/cmake_prefix_path.dsv'
+[1.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/hook/cmake_prefix_path.sh'
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_mapping/lib'
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_mapping/bin'
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_mapping/lib/pkgconfig/bot_mapping.pc'
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_mapping/lib/python3.10/site-packages'
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_mapping/bin'
+[1.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/package.ps1'
+[1.060s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/package.dsv'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/package.sh'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/package.bash'
+[1.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/package.zsh'
+[1.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shaurya/bot_ws/install/bot_mapping/share/colcon-core/packages/bot_mapping)
+[1.063s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_mapping)
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_mapping' for CMake module files
+[1.064s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_mapping' for CMake config files
+[1.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_mapping', 'cmake_prefix_path')
+[1.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/hook/cmake_prefix_path.ps1'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/hook/cmake_prefix_path.dsv'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/hook/cmake_prefix_path.sh'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_mapping/lib'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_mapping/bin'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_mapping/lib/pkgconfig/bot_mapping.pc'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_mapping/lib/python3.10/site-packages'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/home/shaurya/bot_ws/install/bot_mapping/bin'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/package.ps1'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/package.dsv'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/package.sh'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/package.bash'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/package.zsh'
+[1.070s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shaurya/bot_ws/install/bot_mapping/share/colcon-core/packages/bot_mapping)
+[1.070s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.070s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.071s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.071s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.076s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.077s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.077s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.089s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.090s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shaurya/bot_ws/install/local_setup.ps1'
+[1.091s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shaurya/bot_ws/install/_local_setup_util_ps1.py'
+[1.092s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shaurya/bot_ws/install/setup.ps1'
+[1.093s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shaurya/bot_ws/install/local_setup.sh'
+[1.093s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shaurya/bot_ws/install/_local_setup_util_sh.py'
+[1.094s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shaurya/bot_ws/install/setup.sh'
+[1.095s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shaurya/bot_ws/install/local_setup.bash'
+[1.096s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shaurya/bot_ws/install/setup.bash'
+[1.096s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shaurya/bot_ws/install/local_setup.zsh'
+[1.097s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shaurya/bot_ws/install/setup.zsh'

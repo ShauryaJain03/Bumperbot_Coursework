@@ -5,10 +5,10 @@
 
         <!-- ros2_control Gazebo -->
         <!-- ROS 2 Humble -->
-            <hardware>
-                <plugin>ign_ros2_control/IgnitionSystem</plugin>
-            </hardware>
-        
+        <hardware>
+            <plugin>ign_ros2_control/IgnitionSystem</plugin>
+        </hardware>
+    
         <!-- ros2_control Common Interfaces -->
         <joint name="wheel_right_joint">
             <command_interface name="velocity">

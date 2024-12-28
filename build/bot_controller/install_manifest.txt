@@ -12,6 +12,7 @@
 /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/config/twist_mux_joy.yaml
 /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/config/bot_controller.yaml
 /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/config/twist_mux_topics.yaml
+/home/shaurya/bot_ws/install/bot_controller/share/bot_controller/config/armybot_controller.yaml
 /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/launch/controller.launch.py
 /home/shaurya/bot_ws/install/bot_controller/lib/bot_controller/simple_controller.py
 /home/shaurya/bot_ws/install/bot_controller/lib/bot_controller/noisy_controller.py

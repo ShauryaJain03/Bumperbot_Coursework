@@ -1,0 +1,51 @@
+[0.027s] Invoking command in '/home/shaurya/bot_ws/build/bot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_controller -- -j8 -l8
+[0.085s] Built target ament_cmake_python_copy_bot_controller
+[0.545s] running egg_info
+[0.546s] writing bot_controller.egg-info/PKG-INFO
+[0.546s] writing dependency_links to bot_controller.egg-info/dependency_links.txt
+[0.546s] writing top-level names to bot_controller.egg-info/top_level.txt
+[0.549s] reading manifest file 'bot_controller.egg-info/SOURCES.txt'
+[0.550s] writing manifest file 'bot_controller.egg-info/SOURCES.txt'
+[0.581s] Built target ament_cmake_python_build_bot_controller_egg
+[0.598s] Invoked command in '/home/shaurya/bot_ws/build/bot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_controller -- -j8 -l8
+[0.600s] Invoking command in '/home/shaurya/bot_ws/build/bot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_controller
+[0.611s] -- Install configuration: ""
+[0.611s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/environment/pythonpath.sh
+[0.611s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/environment/pythonpath.dsv
+[0.611s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller-0.0.0-py3.10.egg-info
+[0.612s] -- Installing: /home/shaurya/bot_ws/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[0.612s] -- Installing: /home/shaurya/bot_ws/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[0.612s] -- Installing: /home/shaurya/bot_ws/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.612s] -- Installing: /home/shaurya/bot_ws/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.612s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller
+[0.612s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller/__init__.py
+[0.613s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller/simple_controller.py
+[0.613s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller/twist_relay.py
+[0.613s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller/noisy_controller.py
+[0.669s] Listing '/home/shaurya/bot_ws/install/bot_controller/local/lib/python3.10/dist-packages/bot_controller'...
+[0.674s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/config
+[0.675s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/config/twist_mux_locks.yaml
+[0.675s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/config/twist_mux_joy.yaml
+[0.676s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/config/bot_controller.yaml
+[0.676s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/config/twist_mux_topics.yaml
+[0.676s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/launch
+[0.676s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/launch/controller.launch.py
+[0.676s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/lib/bot_controller/simple_controller.py
+[0.676s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/lib/bot_controller/noisy_controller.py
+[0.676s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/lib/bot_controller/twist_relay.py
+[0.677s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/ament_index/resource_index/package_run_dependencies/bot_controller
+[0.677s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/ament_index/resource_index/parent_prefix_path/bot_controller
+[0.677s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/environment/ament_prefix_path.sh
+[0.677s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/environment/ament_prefix_path.dsv
+[0.677s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/environment/path.sh
+[0.678s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/environment/path.dsv
+[0.678s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/local_setup.bash
+[0.679s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/local_setup.sh
+[0.679s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/local_setup.zsh
+[0.680s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/local_setup.dsv
+[0.680s] -- Installing: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/package.dsv
+[0.680s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/ament_index/resource_index/packages/bot_controller
+[0.680s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/cmake/bot_controllerConfig.cmake
+[0.680s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/cmake/bot_controllerConfig-version.cmake
+[0.680s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_controller/share/bot_controller/package.xml
+[0.688s] Invoked command in '/home/shaurya/bot_ws/build/bot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_controller

@@ -6,10 +6,16 @@
 /home/shaurya/bot_ws/install/description/share/description/meshes/wheel_right_link.STL
 /home/shaurya/bot_ws/install/description/share/description/meshes/base_link.STL
 /home/shaurya/bot_ws/install/description/share/description/urdf/bot_gazebo.xacro
-/home/shaurya/bot_ws/install/description/share/description/urdf/armybot.urdf.xacro
+/home/shaurya/bot_ws/install/description/share/description/urdf/base.xacro
 /home/shaurya/bot_ws/install/description/share/description/urdf/bot.urdf.xacro
 /home/shaurya/bot_ws/install/description/share/description/urdf/bot_ros2_control.xacro
+/home/shaurya/bot_ws/install/description/share/description/urdf/pillar.xacro
+/home/shaurya/bot_ws/install/description/share/description/urdf/armybot.xacro
+/home/shaurya/bot_ws/install/description/share/description/urdf/motor.xacro
+/home/shaurya/bot_ws/install/description/share/description/urdf/lidar.xacro
+/home/shaurya/bot_ws/install/description/share/description/urdf/wheel.xacro
 /home/shaurya/bot_ws/install/description/share/description/urdf/armybot_gazebo.xacro
+/home/shaurya/bot_ws/install/description/share/description/urdf/armybot_ros2_control.xacro
 /home/shaurya/bot_ws/install/description/share/description/launch/army_gazebo.launch.py
 /home/shaurya/bot_ws/install/description/share/description/launch/gazebo.launch.py
 /home/shaurya/bot_ws/install/description/share/description/launch/display.launch.py

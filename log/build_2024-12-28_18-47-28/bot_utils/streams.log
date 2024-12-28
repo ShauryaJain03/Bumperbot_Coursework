@@ -1,0 +1,40 @@
+[0.022s] Invoking command in '/home/shaurya/bot_ws/build/bot_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_utils -- -j8 -l8
+[0.081s] Built target ament_cmake_python_copy_bot_utils
+[0.447s] running egg_info
+[0.448s] writing bot_utils.egg-info/PKG-INFO
+[0.448s] writing dependency_links to bot_utils.egg-info/dependency_links.txt
+[0.448s] writing top-level names to bot_utils.egg-info/top_level.txt
+[0.451s] reading manifest file 'bot_utils.egg-info/SOURCES.txt'
+[0.451s] writing manifest file 'bot_utils.egg-info/SOURCES.txt'
+[0.494s] Built target ament_cmake_python_build_bot_utils_egg
+[0.511s] Invoked command in '/home/shaurya/bot_ws/build/bot_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_utils -- -j8 -l8
+[0.513s] Invoking command in '/home/shaurya/bot_ws/build/bot_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_utils
+[0.524s] -- Install configuration: ""
+[0.524s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/share/bot_utils/environment/pythonpath.sh
+[0.524s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/share/bot_utils/environment/pythonpath.dsv
+[0.524s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/local/lib/python3.10/dist-packages/bot_utils-0.0.0-py3.10.egg-info
+[0.525s] -- Installing: /home/shaurya/bot_ws/install/bot_utils/local/lib/python3.10/dist-packages/bot_utils-0.0.0-py3.10.egg-info/top_level.txt
+[0.525s] -- Installing: /home/shaurya/bot_ws/install/bot_utils/local/lib/python3.10/dist-packages/bot_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[0.525s] -- Installing: /home/shaurya/bot_ws/install/bot_utils/local/lib/python3.10/dist-packages/bot_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.525s] -- Installing: /home/shaurya/bot_ws/install/bot_utils/local/lib/python3.10/dist-packages/bot_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.525s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/local/lib/python3.10/dist-packages/bot_utils
+[0.525s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/local/lib/python3.10/dist-packages/bot_utils/__init__.py
+[0.525s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/local/lib/python3.10/dist-packages/bot_utils/safety_stop.py
+[0.566s] Listing '/home/shaurya/bot_ws/install/bot_utils/local/lib/python3.10/dist-packages/bot_utils'...
+[0.572s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/lib/bot_utils/safety_stop.py
+[0.572s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/share/ament_index/resource_index/package_run_dependencies/bot_utils
+[0.573s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/share/ament_index/resource_index/parent_prefix_path/bot_utils
+[0.573s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/share/bot_utils/environment/ament_prefix_path.sh
+[0.573s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/share/bot_utils/environment/ament_prefix_path.dsv
+[0.573s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/share/bot_utils/environment/path.sh
+[0.573s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/share/bot_utils/environment/path.dsv
+[0.573s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/share/bot_utils/local_setup.bash
+[0.574s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/share/bot_utils/local_setup.sh
+[0.574s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/share/bot_utils/local_setup.zsh
+[0.574s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/share/bot_utils/local_setup.dsv
+[0.575s] -- Installing: /home/shaurya/bot_ws/install/bot_utils/share/bot_utils/package.dsv
+[0.575s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/share/ament_index/resource_index/packages/bot_utils
+[0.575s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/share/bot_utils/cmake/bot_utilsConfig.cmake
+[0.575s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/share/bot_utils/cmake/bot_utilsConfig-version.cmake
+[0.575s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_utils/share/bot_utils/package.xml
+[0.579s] Invoked command in '/home/shaurya/bot_ws/build/bot_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_utils

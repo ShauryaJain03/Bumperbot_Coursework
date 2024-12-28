@@ -1,0 +1,48 @@
+[0.028s] Invoking command in '/home/shaurya/bot_ws/build/bot_mapping': CMAKE_PREFIX_PATH=/home/shaurya/bot_ws/install/bot_localization:/home/shaurya/bot_ws/install/description:/home/shaurya/bot_ws/install/bot_utils:/home/shaurya/bot_ws/install/bot_mapping:/home/shaurya/bot_ws/install/bot_controller:/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_mapping -- -j8 -l8
+[0.080s] Built target ament_cmake_python_copy_bot_mapping
+[0.354s] running egg_info
+[0.355s] writing bot_mapping.egg-info/PKG-INFO
+[0.355s] writing dependency_links to bot_mapping.egg-info/dependency_links.txt
+[0.355s] writing top-level names to bot_mapping.egg-info/top_level.txt
+[0.359s] reading manifest file 'bot_mapping.egg-info/SOURCES.txt'
+[0.360s] writing manifest file 'bot_mapping.egg-info/SOURCES.txt'
+[0.386s] Built target ament_cmake_python_build_bot_mapping_egg
+[0.395s] Invoked command in '/home/shaurya/bot_ws/build/bot_mapping' returned '0': CMAKE_PREFIX_PATH=/home/shaurya/bot_ws/install/bot_localization:/home/shaurya/bot_ws/install/description:/home/shaurya/bot_ws/install/bot_utils:/home/shaurya/bot_ws/install/bot_mapping:/home/shaurya/bot_ws/install/bot_controller:/opt/ros/humble /usr/bin/cmake --build /home/shaurya/bot_ws/build/bot_mapping -- -j8 -l8
+[0.397s] Invoking command in '/home/shaurya/bot_ws/build/bot_mapping': CMAKE_PREFIX_PATH=/home/shaurya/bot_ws/install/bot_localization:/home/shaurya/bot_ws/install/description:/home/shaurya/bot_ws/install/bot_utils:/home/shaurya/bot_ws/install/bot_mapping:/home/shaurya/bot_ws/install/bot_controller:/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_mapping
+[0.405s] -- Install configuration: ""
+[0.405s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/environment/pythonpath.sh
+[0.405s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/environment/pythonpath.dsv
+[0.405s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/local/lib/python3.10/dist-packages/bot_mapping-0.0.0-py3.10.egg-info
+[0.405s] -- Installing: /home/shaurya/bot_ws/install/bot_mapping/local/lib/python3.10/dist-packages/bot_mapping-0.0.0-py3.10.egg-info/top_level.txt
+[0.405s] -- Installing: /home/shaurya/bot_ws/install/bot_mapping/local/lib/python3.10/dist-packages/bot_mapping-0.0.0-py3.10.egg-info/PKG-INFO
+[0.405s] -- Installing: /home/shaurya/bot_ws/install/bot_mapping/local/lib/python3.10/dist-packages/bot_mapping-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.405s] -- Installing: /home/shaurya/bot_ws/install/bot_mapping/local/lib/python3.10/dist-packages/bot_mapping-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.405s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/local/lib/python3.10/dist-packages/bot_mapping
+[0.405s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/local/lib/python3.10/dist-packages/bot_mapping/__init__.py
+[0.405s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/local/lib/python3.10/dist-packages/bot_mapping/mapping_with_known_poses.py
+[0.440s] Listing '/home/shaurya/bot_ws/install/bot_mapping/local/lib/python3.10/dist-packages/bot_mapping'...
+[0.445s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/lib/bot_mapping/mapping_with_known_poses.py
+[0.448s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/maps
+[0.449s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/maps/small_house
+[0.449s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/maps/small_house/map.yaml
+[0.449s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/maps/small_house/map.pgm
+[0.449s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/launch
+[0.449s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/launch/slam.launch.py
+[0.449s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/config
+[0.449s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/config/slam_toolbox.yaml
+[0.449s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/ament_index/resource_index/package_run_dependencies/bot_mapping
+[0.449s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/ament_index/resource_index/parent_prefix_path/bot_mapping
+[0.449s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/environment/ament_prefix_path.sh
+[0.449s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/environment/ament_prefix_path.dsv
+[0.450s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/environment/path.sh
+[0.450s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/environment/path.dsv
+[0.450s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/local_setup.bash
+[0.450s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/local_setup.sh
+[0.451s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/local_setup.zsh
+[0.451s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/local_setup.dsv
+[0.451s] -- Installing: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/package.dsv
+[0.451s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/ament_index/resource_index/packages/bot_mapping
+[0.451s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/cmake/bot_mappingConfig.cmake
+[0.451s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/cmake/bot_mappingConfig-version.cmake
+[0.451s] -- Up-to-date: /home/shaurya/bot_ws/install/bot_mapping/share/bot_mapping/package.xml
+[0.452s] Invoked command in '/home/shaurya/bot_ws/build/bot_mapping' returned '0': CMAKE_PREFIX_PATH=/home/shaurya/bot_ws/install/bot_localization:/home/shaurya/bot_ws/install/description:/home/shaurya/bot_ws/install/bot_utils:/home/shaurya/bot_ws/install/bot_mapping:/home/shaurya/bot_ws/install/bot_controller:/opt/ros/humble /usr/bin/cmake --install /home/shaurya/bot_ws/build/bot_mapping
