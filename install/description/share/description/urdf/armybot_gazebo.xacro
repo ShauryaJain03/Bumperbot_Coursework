@@ -57,7 +57,7 @@
   </gazebo>
 
 
-<!--   <gazebo reference="imu_link">
+   <gazebo reference="imu_link">
     <sensor name="imu" type="imu">
         <always_on>true</always_on>
         <update_rate>100</update_rate>
@@ -106,16 +106,16 @@
           </linear_acceleration>
         </imu>
     </sensor>
-  </gazebo>-->
+  </gazebo>
 
 
   <gazebo reference="lidar_link">
-    <sensor name="lidar" type="ray">
+    <sensor name="lidar" type="gpu_ray">
       <always_on>true</always_on>
       <visualize>true</visualize>
       <topic>scan</topic>
       <update_rate>5</update_rate>
-      <gz_frame_id>laser_link</gz_frame_id>
+      <gz_frame_id>lidar_link</gz_frame_id>
       <ray>
         <scan>
           <horizontal>

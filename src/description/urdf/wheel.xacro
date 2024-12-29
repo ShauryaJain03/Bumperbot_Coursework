@@ -2,7 +2,7 @@
 
 <robot xmlns:xacro="http://wiki.ros.org/xacro">
 
-  <xacro:macro name="wheel" params="parent child xyz rpy robot_type">
+  <xacro:macro name="wheel" params="parent child xyz rpy">
 
     <link name="${child}">
       <visual>
@@ -24,23 +24,12 @@
       </inertial>
     </link>
 
-    <xacro:if value="${robot_type == 'omni'}">
-      <joint name="${parent}_to_${child}_joint" type="fixed">
+    <joint name="${parent}_to_${child}_joint" type="continuous">
         <axis xyz="0.0 0.0 1"/>
         <origin xyz="${xyz}" rpy="${rpy}" />
         <parent link="${parent}" />
         <child link="${child}" />
-      </joint>    
-    </xacro:if>
-
-    <xacro:if value="${robot_type == 'diff'}">
-      <joint name="${parent}_to_${child}_joint" type="continuous">
-        <axis xyz="0.0 0.0 1"/>
-        <origin xyz="${xyz}" rpy="${rpy}" />
-        <parent link="${parent}" />
-        <child link="${child}" />
-      </joint>    
-    </xacro:if>
+    </joint>    
 
   </xacro:macro>
 

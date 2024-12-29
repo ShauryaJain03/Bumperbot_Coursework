@@ -144,9 +144,9 @@ def generate_launch_description():
             wheel_controller_spawner,
             wheel_radius_error_arg,
             wheel_separation_error_arg,
-            twist_relay_node,
-            twist_mux_launch,
-            noisy_controller_launch,
-            simple_controller
+            #twist_relay_node,
+            #twist_mux_launch,
+            #noisy_controller_launch,
+            #simple_controller
         ]
     )

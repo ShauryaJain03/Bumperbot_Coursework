@@ -12,6 +12,7 @@
 /home/shaurya/bot_ws/install/description/share/description/urdf/pillar.xacro
 /home/shaurya/bot_ws/install/description/share/description/urdf/armybot.xacro
 /home/shaurya/bot_ws/install/description/share/description/urdf/motor.xacro
+/home/shaurya/bot_ws/install/description/share/description/urdf/imu.xacro
 /home/shaurya/bot_ws/install/description/share/description/urdf/lidar.xacro
 /home/shaurya/bot_ws/install/description/share/description/urdf/wheel.xacro
 /home/shaurya/bot_ws/install/description/share/description/urdf/armybot_gazebo.xacro

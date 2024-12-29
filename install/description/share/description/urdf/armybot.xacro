@@ -10,6 +10,7 @@
   <xacro:include filename="$(find description)/urdf/motor.xacro"/>
   <xacro:include filename="$(find description)/urdf/lidar.xacro"/>
   <xacro:include filename="$(find description)/urdf/wheel.xacro"/>
+  <xacro:include filename="$(find description)/urdf/imu.xacro"/>
   <xacro:include filename="$(find description)/urdf/armybot_gazebo.xacro" />
   <xacro:include filename="$(find description)/urdf/armybot_ros2_control.xacro" />
 
@@ -34,11 +35,12 @@
   <xacro:robot_motor parent="first_base_link" child="back_left_motor_link" xyz="-0.10 0.040 -0.025" rpy="0 0 0" />
   <xacro:robot_motor parent="first_base_link" child="back_right_motor_link" xyz="-0.10 -0.040 -0.025" rpy="0 0 0" />
 
-  <xacro:wheel parent="front_left_motor_link" child="front_left_wheel_link" xyz="0.0 0.060 -0.015" rpy="1.57 0 0" robot_type="$(arg robot_type)" />
-  <xacro:wheel parent="front_right_motor_link" child="front_right_wheel_link" xyz="0.0 -0.060 -0.015" rpy="1.57 0 0" robot_type="$(arg robot_type)" />
-  <xacro:wheel parent="back_left_motor_link" child="back_left_wheel_link" xyz="0.0 0.060 -0.015" rpy="1.57 0 0" robot_type="$(arg robot_type)" />
-  <xacro:wheel parent="back_right_motor_link" child="back_right_wheel_link" xyz="0.0 -0.060 -0.015" rpy="1.57 0 0" robot_type="$(arg robot_type)" />
+  <xacro:wheel parent="front_left_motor_link" child="front_left_wheel_link" xyz="0.0 0.060 -0.015" rpy="1.57 0 0" />
+  <xacro:wheel parent="front_right_motor_link" child="front_right_wheel_link" xyz="0.0 -0.060 -0.015" rpy="1.57 0 0"  />
+  <xacro:wheel parent="back_left_motor_link" child="back_left_wheel_link" xyz="0.0 0.060 -0.015" rpy="1.57 0 0"  />
+  <xacro:wheel parent="back_right_motor_link" child="back_right_wheel_link" xyz="0.0 -0.060 -0.015" rpy="1.57 0 0"  />
 
   <xacro:lidar parent="third_base_link" child="lidar_link" xyz="0.04 0.0 0.035" rpy="0 0 0" />
+  <xacro:imu parent="third_base_link" child="imu_link" xyz="0.08 0.0 0.035" rpy="0 0 0" />
 
 </robot>

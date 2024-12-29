@@ -7,7 +7,7 @@
     <link name="${child}">
       <visual>
         <geometry>
-          <box size="0.10 0.075 0.060" />
+          <box size="0.05 0.045 0.040" />
         </geometry>
         <material name="red">
           <color rgba="0.0 0.0 1 1" />
@@ -15,7 +15,7 @@
       </visual>
       <collision>
         <geometry>
-          <box size="0.10 0.075 0.060" />
+          <box size="0.05 0.045 0.040" />
         </geometry>
       </collision>
       <inertial>
